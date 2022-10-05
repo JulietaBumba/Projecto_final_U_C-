@@ -1,0 +1,107 @@
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding: 20px 0;
+}
+
+li{
+    padding: 0 20px;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.imgfundo{
+    background-image: url(./img/mt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.imgfundo h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.card-menu{
+    display: flex;
+    justify-content: space-around;
+    height: 430px;
+    flex-wrap: wrap;
+}
+
+.card-img img{
+   width: 300px;
+   height: 300px;
+}
+
+.card-img itemcarousel-item{
+    width: 200vh;
+    height: 300vh;
+
+}
+
+.card-body{
+   background-color: white;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   box-shadow: 8px 3px 3px black;
+}
+
+.card-titulo h1{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: rgb(46,35,35);
+}
+
+.card-titulo span{
+    color: rgba(128, 70, 29, 0.95);
+}
+
+.card-titulo h2{
+    padding-left: 10px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: rgb(69, 42, 42);
+}
+
+.card-titulo {
+  color: black;
+}
+
+@media(max-width:700px){
+
+    .card-body{
+        margin-bottom: 20px;
+    }
+
+}
+
+.rodape{
+    background-color: rgb(69, 42, 42);
+    width: 100%;
+    padding: 50px ;
+   text-align: center;
+}
+
